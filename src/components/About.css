@@ -1,0 +1,62 @@
+#About{
+        overflow: hidden;
+        width: 100vw;
+        max-width: 75rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+}
+.Title{
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+.Des    {
+    font-size: 1rem;
+    font-weight: 450;
+    max-width: 75rem;
+    padding: 0 2rem;
+}
+.Bars{
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 75rem;
+    text-align: left;
+}
+.Bar{
+    display: flex;
+    margin: 1rem;
+    padding: 0.7rem;
+    border-radius: 1.5rem;
+    background: rgb(217, 217, 217);
+}
+.BarImg{
+    object-fit: cover;
+    height: 7rem;
+    width: 7rem;
+    margin: 0.5rem 1rem;
+}
+.BarText>p{
+    font-size: 0.9rem;
+    font-weight: 450;
+}
+@media screen and (max-width:680px) {
+    .Title{
+    font-size: 10vw;
+    }
+}
+@media screen and (max-width:720px) {
+    .BarText>p{
+        font-size: 2vw;    }    
+}
+@media screen and (max-width:480px) {
+    .BarText>p{
+        font-size: 2vw; } 
+    .BarImg{
+        height: 15vh;
+        width: 12vh;
+    }       
+}
