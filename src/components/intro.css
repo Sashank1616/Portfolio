@@ -40,6 +40,9 @@
     border-radius: 2rem;
     text-align: center;
 }
+.btn>a{
+text-decoration: none;
+}
 .res{
     font-size: 1.75rem;
     font-weight: 300;
